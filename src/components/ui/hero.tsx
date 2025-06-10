@@ -146,10 +146,7 @@ const TextRotate: React.FC<TextRotateProps> = ({
   const [currentTextIndex, setCurrentTextIndex] = React.useState(0);
 
   const splitIntoCharacters = (text: string): string[] => {
-    if (typeof Intl !== "undefined" && "Segmenter" in Intl) {
-      const segmenter = new Intl.Segmenter("en", { granularity: "grapheme" });
-      return Array.from(segmenter.segment(text), ({ segment }) => segment);
-    }
+    // Simple fallback - just split by characters
     return Array.from(text);
   };
 
@@ -396,6 +393,11 @@ const KisahKitaHero: React.FC<KisahKitaHeroProps> = ({ className }) => {
               size="lg"
               variant="outline"
               className="border-[#9DAF89] text-[#9DAF89] hover:bg-[#9DAF89] hover:text-white backdrop-blur-sm font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
+              onClick={() => {
+                document.getElementById('gallery')?.scrollIntoView({ 
+                  behavior: 'smooth' 
+                });
+              }}
             >
               <Users className="w-5 h-5 mr-2" />
               View Our Work

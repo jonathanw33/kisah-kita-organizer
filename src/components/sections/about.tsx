@@ -62,7 +62,7 @@ const AboutSection = () => {
               </p>
               <div className="pt-4">
                 <blockquote className="text-xl italic text-primary-500 font-medium border-l-4 border-primary-400 pl-6">
-                  "Let's create precious stories together"
+                  &ldquo;Let&rsquo;s create precious stories together&rdquo;
                 </blockquote>
               </div>
             </motion.div>

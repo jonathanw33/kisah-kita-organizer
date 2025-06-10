@@ -67,7 +67,7 @@ const ServicesSection = () => {
             </h2>
             <div className="w-24 h-1 bg-primary-400 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              From the first breath to life's final moments, we organize every significant chapter of your story with care, creativity, and attention to detail.
+              From the first breath to life&rsquo;s final moments, we organize every significant chapter of your story with care, creativity, and attention to detail.
             </p>
           </motion.div>
 
@@ -111,7 +111,7 @@ const ServicesSection = () => {
                 Ready to Plan Your Event?
               </h3>
               <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
-                Let's create beautiful memories together. Contact us to discuss your vision and budget.
+                Let&rsquo;s create beautiful memories together. Contact us to discuss your vision and budget.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <motion.button
@@ -131,7 +131,7 @@ const ServicesSection = () => {
               </div>
               <div className="mt-6">
                 <p className="text-sm text-gray-500 italic">
-                  "Let's create precious stories together" - "Create events according to your budget"
+                  &ldquo;Let&rsquo;s create precious stories together&rdquo; - &ldquo;Create events according to your budget&rdquo;
                 </p>
               </div>
             </div>

@@ -48,8 +48,8 @@ const ContactSection = () => {
             </h2>
             <div className="w-24 h-1 bg-primary-400 mx-auto mb-8"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Ready to start planning your special event? We'd love to hear from you. 
-              Contact us to discuss your vision and let's create something beautiful together.
+              Ready to start planning your special event? We&rsquo;d love to hear from you. 
+              Contact us to discuss your vision and let&rsquo;s create something beautiful together.
             </p>
           </motion.div>
 
@@ -94,7 +94,7 @@ const ContactSection = () => {
               </h3>
               <p className="text-primary-50 mb-6 max-w-2xl mx-auto leading-relaxed">
                 Contact us via WhatsApp for quick consultation and instant responses. 
-                We're here to help bring your event vision to life!
+                We&rsquo;re here to help bring your event vision to life!
               </p>
               <motion.a
                 href="http://wa.me/6285880529488"
@@ -120,13 +120,13 @@ const ContactSection = () => {
           >
             <div className="bg-white rounded-xl p-8 shadow-lg text-center">
               <blockquote className="text-2xl font-medium text-gray-800 mb-4 italic">
-                "Mari menciptakan kisah berharga bersama kami"
+                &ldquo;Mari menciptakan kisah berharga bersama kami&rdquo;
               </blockquote>
-              <p className="text-primary-500 font-semibold">Let's create precious stories together</p>
+              <p className="text-primary-500 font-semibold">Let&rsquo;s create precious stories together</p>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg text-center">
               <blockquote className="text-2xl font-medium text-gray-800 mb-4 italic">
-                "Buatlah acara sesuai dengan budget anda"
+                &ldquo;Buatlah acara sesuai dengan budget anda&rdquo;
               </blockquote>
               <p className="text-primary-500 font-semibold">Create events according to your budget</p>
             </div>
